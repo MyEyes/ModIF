@@ -46,9 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameSide\ItemDescBase.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="ModInfo.cs" />
     <Compile Include="GameSide\ModLoader.cs" />
+    <Compile Include="ModSide\IGameEntity.cs" />
+    <Compile Include="ModSide\IItemDesc.cs" />
+    <Compile Include="GameSide\IItemInterface.cs" />
     <Compile Include="ModSide\IModdingInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

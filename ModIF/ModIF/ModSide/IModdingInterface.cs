@@ -10,5 +10,7 @@ namespace ModIF
     {
         string GetBaseGamePath();
         bool RegisterHandler<T>(string handlerName, EventHandler<T> handler) where T:EventArgs;
+
+        IItemInterface GetItemInterface();
     }
 }
