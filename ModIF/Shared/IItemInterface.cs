@@ -10,5 +10,8 @@ namespace ModIF
     {
         IItemDesc CreateNewItem();
         bool RegisterNewItem(IItemDesc item);
+        
+        IItemDesc CreateNewItem(string itemTypeName);
+        string[] GetDefinedItemTypes();
     }
 }
