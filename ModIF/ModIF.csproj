@@ -46,15 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameSide\ItemDescBase.cs" />
+    <Compile Include="GameSide\Item\ItemDescBase.cs" />
+    <Compile Include="GameSide\Item\ItemInterfaceHelper.cs" />
+    <Compile Include="GameSide\Item\ItemObjectWrapper.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="ModInfo.cs" />
     <Compile Include="GameSide\ModLoader.cs" />
-    <Compile Include="ModSide\IGameEntity.cs" />
-    <Compile Include="ModSide\IItemDesc.cs" />
-    <Compile Include="GameSide\IItemInterface.cs" />
     <Compile Include="ModSide\IModdingInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\IGameEntity.cs" />
+    <Compile Include="Shared\IItemDesc.cs" />
+    <Compile Include="Shared\IItemInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ModIF.pfx" />
